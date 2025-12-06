@@ -36,7 +36,7 @@ Streamlit: For the frontend web interface.
 
 Clone the repository:
 
-git clone [https://github.com/shadman998/web-scraper.git]
+git clone [https://github.com/shadman998/web-scraper/]
 cd web-scraper-app
 
 
