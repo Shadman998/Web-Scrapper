@@ -1,0 +1,32 @@
+--- Python Basics ---
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+--- Virtual Environments (The Heavy Tools) ---
+
+We never upload these because the server builds its own using requirements.txt
+
+venv/
+.venv/
+env/
+
+--- VS Code Settings ---
+
+.vscode/
+
+--- Data Files (Optional) ---
+
+Usually, we don't upload large datasets to GitHub.
+
+Uncomment the line below if you want to stop uploading CSVs:
+
+*.csv
+
+--- Mac/Windows System Files ---
+
+.DS_Store
+Thumbs.db
