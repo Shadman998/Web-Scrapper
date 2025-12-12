@@ -106,7 +106,7 @@ if st.button("Start Scraping Engine"):
 # Create DataFrame
     df = pd.DataFrame(all_quotes)
     #df["quote"] = df["quote"].str.replace('""', '"', regex=False)
-    df["quote"] = df["quote"].str.strip('"")  #Remove leading and trailing double quotes')
+    df["quote"] = df["quote"].str.strip('"')  #Remove leading and trailing double quotes')
 
     
 # Display Data on screen
