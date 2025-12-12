@@ -8,7 +8,7 @@ import streamlit as st
 Base_URL = "http://quotes.toscrape.com" #the website we are hitting to get the data. (It is legal to do so for this website)
 
 # HEADERS is a trick to not to let the website understand that a python code is visiting the page. Sometimes when the websites detect robots visiting their page they will block access.
-HEADERS = HEADERS = {
+HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
